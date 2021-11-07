@@ -15,6 +15,10 @@
 
 body {
   font-family: Roboto, sans-serif;
+  color: #212121;
+}
+button {
+  cursor: pointer;
 }
 .list {
   list-style: none;
@@ -34,6 +38,7 @@ body {
 .header-link:hover {
   color: var(--hover-color);
 }
+
 .header-link:active {
   color: brown;
 }
@@ -44,6 +49,12 @@ body {
   letter-spacing: 0.02em;
 
   color: #757575;
+}
+.header-contacts:focus {
+  color: var(--accent-color);
+}
+.header-contacts:hover {
+  color: var(--accent-color);
 }
 
 /*-------------- Main section -------------*/
@@ -143,6 +154,12 @@ body {
 
   color: var(--header-text-color);
 }
+.footer-link:hover {
+  color: var(--accent-color);
+}
+.footer-link:focus {
+  color: var(--accent-color);
+}
 .footer-contacts {
   font-weight: 400;
   font-size: 14px;
@@ -151,6 +168,9 @@ body {
 
   color: var(--contacts-color);
   background-color: #757575;
+}
+.footer-contacts:hover,.footer-contacts:focus {
+color: var(--accent-color);
 }
 .footer-address {
   font-family: Roboto;
@@ -163,6 +183,10 @@ body {
 
   color: #ffffff;
   background-color: #757575;
+}
+}
+.footer-address:hover,.footer-address:focus {
+  color: var(--accent-color);
 }
 
 /* --------------- PORTFOLIO----------------- */
