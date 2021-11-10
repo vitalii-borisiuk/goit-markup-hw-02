@@ -27,9 +27,7 @@ button {
   text-decoration: none;
 }
 
-.current {
-  color: var(--accent-color);
-}
+
 /* -----------Logo---------------- */
 .header-logo-first {
 font-family: Raleway;
@@ -69,7 +67,7 @@ color: var(--first-color);
 
 }
 /* -----------------Header-------------- */
-.current {
+.current-link {
   color: var(--accent-color);
 }
 .header {
@@ -83,13 +81,9 @@ color: var(--first-color);
 
   color: var(--second-color);
 }
-.header-link:hover {
-  color: var(--hover-color);
-}
-.header-link:focus {
+.header-link:hover, .header-link:focus, .current {
   color: var(--accent-color);
 }
-
 .header-contacts {
   font-weight: 500;
   font-size: 14px;
@@ -98,10 +92,7 @@ color: var(--first-color);
 
   color: var(--third-color);
 }
-.header-contacts:focus {
-  color: var(--accent-color);
-}
-.header-contacts:hover {
+.header-contacts:focus, .header-contacts:hover {
   color: var(--accent-color);
 }
 
@@ -132,14 +123,11 @@ color: var(--first-color);
   background-color: #2196f3;
   cursor: pointer;
 }
-.main-btn:hover {
+.main-btn:hover,.main-btn:focus {
     background-color: var(--first-color);
   color: var(--second-color);
 }
-.main-btn:focus {
-    background-color: var(--first-color);
-  color: var(--second-color);
-}
+
 
 /* --------- Features section ---------- */
 .features {
@@ -214,10 +202,7 @@ color: var(--first-color);
 
   color: var(--second-color);
 }
-.footer-link:hover {
-  color: var(--accent-color);
-}
-.footer-link:focus {
+.footer-link:hover, .footer-link:focus {
   color: var(--accent-color);
 }
 .footer-contacts {
@@ -260,7 +245,7 @@ color: var(--first-color);
   background-color: var(--background-button);
   color: var(--second-color);
 }
-.filter-btn:hover {
+.filter-btn:hover, .filter-btn:focus {
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
@@ -271,9 +256,7 @@ color: var(--first-color);
   background-color: var(--accent-color);
   color: var(--first-color);
 }
-.filter-btn:focus {
-  color: var(--accent-color);
-}
+
 .work-title {
   font-weight: 700;
   font-size: 18px;
