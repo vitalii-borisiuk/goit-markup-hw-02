@@ -72,7 +72,7 @@ color: var(--first-color);
   color: var(--accent-color);
 }
 .header {
-  background-color: var(--background-second);
+  background-color: var(--first-color);
 }
 .header-link {
   font-weight: 500;
